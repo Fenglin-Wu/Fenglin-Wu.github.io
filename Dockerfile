@@ -10,7 +10,7 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en  
 ENV LC_ALL en_US.UTF-8  
 
-# add ruby and jekyll
+# add ruby and jekyll111
 RUN apt-get install --no-install-recommends ruby-full build-essential zlib1g-dev -y 
 RUN apt-get install imagemagick -y 
 RUN apt-get clean \
